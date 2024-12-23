@@ -1,0 +1,55 @@
+.maindiv{
+    margin: auto;
+    float: center;
+    width: 100%;
+}
+.prod{
+    float: left;
+    border: 1px solid black;
+    margin:5px ;
+    padding: 3px;
+    text-align: left;
+    width: auto;
+}
+.prod h2, .prod h3 {
+    float: left; 
+    color: green;
+    margin: 0 10px 10px 0;
+    display: inline;
+   
+}
+.prod h3{
+    color: red;
+    text-decoration-line: line-through;
+}
+
+.prod button{
+   
+    float: left;
+    margin: 5px;
+    padding: 8px 15px;
+    text-align: center;
+    border: 2px solid blue;
+  
+}
+img{
+    float: left;
+    display: block; 
+    margin: 0 auto; 
+}
+.prod .fav{
+    float: left;
+    width:25%;
+    color: blue;
+    background-color: white;
+}
+.prod .add{
+    float: left;
+    color: white;
+    background-color: blue;
+    width:65%;
+   
+
+}
+.clearfix {
+    clear: both;}
